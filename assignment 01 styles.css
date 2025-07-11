@@ -1,0 +1,26 @@
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+.nav-title{
+  font-size: 34px;
+  color: #4E47FF;
+  width: 99px;
+  height: 51px;
+}
+nav ul li {
+  list-style: none;
+  size: 16px;
+  text-align: center;
+} 
+.btn-primary {
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  padding: 12px 36px;
+  width: 132px;
+  height: 48px;
+  border-radius: 10px;
+}
