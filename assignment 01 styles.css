@@ -1,9 +1,22 @@
 
 nav{
+  height: 698px; width: 1440px;
+  position: relative;top: 0px; left: 1px;
+  padding-bottom: 200px;
+  background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png) ;
+}
+.top{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 150px;
+  padding: 50px 0px;  
+  position: relative;top: 0px; left: 150px;
+  height: 151px; width: 1140px;
+
+}
+.bottom {
+  width: 905px; height: 237px;gap: 37px;
+  text-align: center;
 }
 .nav-title{
   font-size: 34px;
@@ -13,7 +26,7 @@ nav{
 }
 nav ul li {
   list-style: none;
-  size: 16px;
+  gap: 16px;
   text-align: center;
 } 
 .btn-primary {
@@ -23,4 +36,21 @@ nav ul li {
   width: 132px;
   height: 48px;
   border-radius: 10px;
+}
+.bold-text{
+  font-weight: bold;
+}
+div button{
+  background-color:#4E47FF; color: #FFFFFF;
+  padding: 12px 36px; border-radius: 10px;
+}
+.page2 {
+  display: flex;
+}
+.page2 img{
+  border-radius: 48px;
+}
+#See-it{
+  font-size: 42px;
+  color: #252432;
 }
